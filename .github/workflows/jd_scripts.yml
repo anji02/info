@@ -22,7 +22,7 @@ jobs:
         uses: repo-sync/github-sync@v2
         if: env.PAT
         with:
-          source_repo: "https://github.com/Aaron-lv/sync/blob/jd_scripts/.github/workflows/deploy_tencent_scf.yml.git"
+          source_repo: "https://github.com/Aaron-lv/sync.git"
           source_branch: "jd_scripts"
           destination_branch: "jd_scripts"
           github_token: ${{ secrets.PAT }}
